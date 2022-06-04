@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+#navbar {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+
+}
+
+#navbar .navbar-container {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+
+}
+
+#navbar .navbar-container .logo {
+    height: 40px;
+    width: auto;
+
+
+}
+
+#navbar .navbar-container ul {
+    display: flex;
+    list-style: none;
+    font-weight: bold;
+
+}
+
+#navbar .navbar-container ul li {
+    padding: 0 20px;
+}
+
+
+#navbar .navbar-container ul li:nth-child(3) {
+    border-right: solid #fff;
+}
+
+#show-case {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background: url(./c-d-x-PDX_a_82obo-unsplash.jpg)center center/cover;
+    background-color:  rgba(0, 0, 0, 0.2);
+    background-blend-mode: color;
+
+}
+
+#show-case .show-case {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#show-case .show-case h2 {
+    font-size: 5rem;
+
+}
+
+#show-case .show-case p {
+    margin: 15px 0;
+    font-size: 1.1rem;
+}
+
+.btn-primary {
+    background: #1DB954;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 15px 60px;
+    border: none;
+    border-radius: 30px;
+    letter-spacing: 1px;
+    font-weight: bold;
+
+}
